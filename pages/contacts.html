@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Ciolacu Melissa, Rotăreanu Victoria">
+    <title>Feliz- Contacte</title>
+
+    <link rel="icon" href="../src/logo feliz.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/contacts.css">
+
+    <script src="../js/lightbox.js" defer></script>
+    <script src="../js/script.js" defer></script>
+
+
+</head>
+
+<body class="body-pages" onload="onload()">
+    <div class="banner">
+        <header class="header-nav">
+            <nav class="navigation" id="navbar">
+                <a class="logo-a" href="../index.html">
+                    <img class="logo" src="../src/logo feliz.png" alt="Logo-ul Feliz">
+                </a>
+                <div class="navigation-container">
+                    <ul class="information">
+                        <li><a href="tel:060 06 55 57"><i class="fa-solid fa-phone"></i> 060 06 55 57</a></li>
+                        <li><a target="_blank" href="mailto:Burlacumihai885@yahoo.com"><i
+                                    class="fa-solid fa-envelope"></i> Burlacumihai885@yahoo.com</a>
+                        </li>
+                    </ul>
+                    <input id="burger-toggle" type="checkbox">
+                    <label for="burger-toggle">
+                        <span></span>
+                    </label>
+                    <ul class="site-bar">
+                        <li><a href="../index.html">Acasă <i class="fa-solid fa-house"></i></a></li>
+                        <li><a href="about.html">Despre noi <i class="fa-solid fa-circle-info"></i></a></li>
+                        <li><a href="menu.html">Meniu <i class="fa-solid fa-list"></i></a></li>
+                        <li><a class="active" href="contacts.html">Contacte <i
+                                    class="fa-solid fa-mobile-screen-button"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social-list">
+                    <a target="_blank" class="button social-button" href="https://www.instagram.com/feliz.wine.bar/"><i
+                            class="fab fa-instagram"></i></a>
+                    <a target="_blank" class="button social-button"
+                        href="https://www.facebook.com/p/Feliz-wine-bar-100078304800304/"><i
+                            class="fab fa-facebook"></i></a>
+                </div>
+        
+            </nav>
+            <div id="top4"></div>
+        </header>
+        <main>
+            <section class="container">
+
+                <a href="#top4"><i class="up fa-solid fa-circle-arrow-up"></i></a>
+
+                <h1 class="centered">Contacte</h1>
+
+                <div class="row">
+                    <div class="row lista">
+                        <div class="col-50">
+                            <h3 class="center">Programul de lucru:</h3>
+                            <ul class="contact-list">
+                                <li><b>Luni:</b> 08:00-23:00</li>
+                                <li><b>Marți:</b> 08:00-23:00</li>
+                                <li><b>Miercuri:</b> 08:00-23:00</li>
+                                <li><b>Joi:</b> 08:00-23:00</li>
+                                <li><b>Vineri:</b> 08:00-23:00</li>
+                                <li><b>Sâmbătă:</b> 09:00-00:00</li>
+                                <li><b>Duminică:</b> 09:00-00:00</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-50">
+                            <br>
+                            <h3 class="center">Date de contact:</h3>
+                            <ul class="contact-list2">
+                                <li><b>Telefon:</b> <a href="tel:060 06 55 57">060 06 55 57</a></li>
+                                <li><b>Adresa: </b><span>Strada Naţionala 1 A, MD-3606, Ungheni, Republica
+                                        Moldova</span></li>
+                                <li><b>E-mail:</b><a href="mailto:Burlacumihai885@yahoo.com">
+                                        Burlacumihai885@yahoo.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-50 contacte-info">
+                        <br><br><br>
+
+                        <div class="formular-container">
+                            <!-- <form id="formular" onsubmit="sendEmail(); reset(); return false;"> -->
+                            <form action="https://formsubmit.co/" method="POST" id="formular">
+                                <h3>Lasă un mesaj</h3>
+                                <input type="text" name="Nume Prenume" id="nume" placeholder="Nume Prenume" required>
+                                <br>
+                                <input type="email" name="E-mail" id="email" placeholder="E-mail" required>
+                                <br>
+                                <input type="subiect" name="Subiect" id="subiect" placeholder="Subiect" required>
+                                <br>
+                                <textarea id="Mesaj" name="mesaj" rows="4" placeholder="Mesajul" required></textarea>
+                                <br>
+                                <input type="hidden" name="_captcha" value="false">
+                                <!-- <input type="button" value="Transmite" onclick="send()"> -->
+                                <button id="btn1">Transmite</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-50">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.7062745699445!2d27.793144476775367!3d47.202761315776755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb013e6cde6a15%3A0xfc0cc96b8694c926!2sFeliz%20Wine%20Bar!5e0!3m2!1sro!2s!4v1742039392825!5m2!1sro!2s"
+                            width="600" height="450" class="harta" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+
+        <footer>
+            <div class="text_footer">Feliz ©️</div> <br>
+            <a href="../index.html"> <img class="logo_footer" src="../src/logo feliz.png"></a> <br>
+            <div class="texte_footer">Telefon: <a href="tel:060 06 55 57">060 06 55 57</a></div>
+            <div class="texte_footer">E-mail: <a href="mailto:Burlacumihai885@yahoo.com"></a>Burlacumihai885@yahoo.com
+            </div>
+            <div>
+                <a target="_blank" class="button social-button" href="https://www.instagram.com/feliz.wine.bar/"><i
+                        class="fab fa-instagram"></i></a>
+                <a target="_blank" class="button social-button"
+                    href="https://www.facebook.com/p/Feliz-wine-bar-100078304800304/"><i
+                        class="fab fa-facebook"></i></a>
+            </div>
+            <div class="disclaimer_footer">Acest website a fost realizat în cadrul competiției ”Tekwill Junior
+                Ambassadors” organizată de proiectul ”Tekwill în Fiecare Școală” și nu reflectă neapărat opinia
+                proiectului.</div>
+            <span class="text_footer" id="year"></span>
+        </footer>
+    </div>
+</body>
+
+</html>
